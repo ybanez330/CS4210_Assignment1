@@ -46,3 +46,4 @@ clf = clf.fit(X, Y)
 #plotting the decision tree
 tree.plot_tree(clf, feature_names=['Age', 'Spectacle', 'Astigmatism', 'Tear'], class_names=['Yes','No'], filled=True, rounded=True)
 plt.show()
+
